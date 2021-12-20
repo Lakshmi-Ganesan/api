@@ -10,24 +10,12 @@ async function phone() {
             document.querySelector("#id1").innerText = "id:" + data.data[0].brand_id;
             document.querySelector("#name1").innerText = "name:" + data.data[0].brand_name;
             document.querySelector("#count1").innerText = "data:" + data.data[0].device_count;
-
-
             let phone1 = document.getElementById("acer");
             let acer = document.createElement("img");
             acer.setAttribute("src", "acer.jpg");
             acer.setAttribute("class", "image");
             phone1.append(acer);
-
-
-
-
-
-
-
-
-
-
-            //phone2
+          //phone2
             document.querySelector("#id2").innerText = "id:" + data.data[5].brand_id;
             document.querySelector("#name2").innerText = "name:" + data.data[5].brand_name;
             document.querySelector("#count2").innerText = "data:" + data.data[5].device_count;
