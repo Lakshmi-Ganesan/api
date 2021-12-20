@@ -1,0 +1,107 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+.image
+{
+    width:435px;
+    height: 484px;
+    
+}
+#acer
+{
+    display:table-row;
+    gap: 2em;
+    font-size: 20px;
+    background-color:crimson;
+    text-align: center;
+    font-style:italic;
+}
+#realme
+{
+    display:table-row;
+    gap: 2em;
+    font-size: 20px;
+    text-align: center;
+    background-color: royalblue;
+    font-style: oblique;
+}
+#apple
+{
+    display:table-row;
+    gap: 2em;
+    font-size: 20px;
+    text-align: center;
+    background-color:palevioletred;
+    font-style: italic;
+}
+#honor
+{
+    display:table-row;
+    gap: 2em;
+    font-size: 20px;
+    text-align: center;
+  background-color:purple;
+  font-style: bold;
+}
+#oneplus
+{
+    display:table-row;
+    gap: 2em;
+    font-size: 20px;
+    text-align: center;
+    background-color: yellow;
+    font-style:italic;
+}
+#div1
+{
+    width:500px;
+    height:405px;
+}
+#flex
+{    
+    
+    width:480px;
+    background-color:darkcyan;
+    display:flex;
+    flex-direction: column;
+    gap:0.5em;
+    padding-left:100px;
+    height: 97%;
+    font-size: 35px;
+    background-image: url('./awareness.jpeg');
+    color:red;
+    padding-bottom: 35px;
+    
+}  
+#whole
+{
+    display:flex;
+    
+    width:100% 
+}
+#head
+{
+    background-color:lightcoral;
+    border-bottom:2px solid black;
+    text-align: center;
+    justify-content: space-between;
+    height: 50px;
+}
+#container {
+    background-color: darkgoldenrod;
+    background-image: url('./thread.jpg');
+    text-align: center;
+    font-size: 25px;
+    color: brown;
+    gap:2em;    
+}
+.num2{
+    color:cyan;
+}
+.num3{
+    color:blue;
+}
+
+
